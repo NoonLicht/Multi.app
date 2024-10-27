@@ -5,64 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download App</title>
-    <link rel="stylesheet" href="static/index.css">
+    <link rel="stylesheet" href="static/default/index.css">
+    <link rel="stylesheet" href="static/default/buttons.css">
+    <link rel="stylesheet" href="static/default/titlebar.css">
+    <link rel="stylesheet" href="static/default/dark-theme.css">
     <link rel="stylesheet" href="static/tweak.css">
-    <link rel="stylesheet" href="static/titlebar.css">
-    <link rel="stylesheet" href="static/dark-theme.css">
     <link rel="stylesheet" href="static/main.css">
-    <link rel="stylesheet" href="static/buttons.css">
-    <script src="script/titlebar-control.js"></script>
-    <script src="script/titlebar-button.js"></script>
+    <script src="script/default/titlebar-button.js"></script>
+    <script src="script/default/route.js"></script>
+    <script src="script/default/titlebar-control.js"></script>
     <script src="script/blocks-with-app.js"></script>
     <script src="script/tweakmenu.js"></script>
-    <script src="script/block-buttons.js"></script>
     <script src="script/link.js"></script>
-    <script>
-        function navigateToIndex() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-    
-        function navigateToTweak() {
-            window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: 'smooth'
-            });
-        }
+    <script src="script/default/block-buttons.js"></script>
 
-        function navigateToInstallApps() {
-            window.scrollTo({
-                top: document.body.scrollHeight,
-                behavior: 'smooth'
-            });
+    <script>
+        function navigateToContainer(containerId) {
+            const container = document.getElementById(containerId);
+            if (container) {
+                window.scrollTo({
+                    top: container.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
         }
     </script>
 </head>
-<body>
-    <div class="titlebar" id="titlebar">
-    </div>
-    <div class="main">
-        <div class="container1">
-            <div class="con">
-                <div class="com">
-                </div>
-            </div>
-        </div>
-        <div class="container2">
-            <div class="tweakmenu" id="tweakmenu">
-            </div>
-            <div class="con">
-                <div class="coms">
-                </div>
-            </div>
-        </div>
-        <div class="container3">
-            <div class="con">
-                <div class="coms">
 
-                </div>
+<body>
+    <div class="titlebar" id="titlebar"></div>
+    <div class="main">
+        <div id="container1" class="container1">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container2" class="container2">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container3" class="container3">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container4" class="container4">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container5" class="container5">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container6" class="container6">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container7" class="container7">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container8" class="container8">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container9" class="container9">
+            <div class="con">
+                <div class="com"></div>
+            </div>
+        </div>
+        <div id="container10" class="container10">
+            <div class="con">
+                <div class="com"></div>
             </div>
         </div>
     </div>

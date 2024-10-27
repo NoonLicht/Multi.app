@@ -67,7 +67,7 @@ background: var(--greyLight-1);
 transition: all 0.5s ease;
 transition: background 0.5s ease;
 }
-.com {
+#container1 .com {
 margin-top: 40px;
 display: fixed;
 padding: 1rem;
@@ -75,9 +75,19 @@ grid-template-rows: repeat(autofit, -webkit-min-content);
 grid-template-rows: repeat(autofit, min-content);
 align-items: center;
 }
-.coms {
-  display: fixed;
-  margin-bottom: 23px;
+#container2 .com {
+  width: 1200px;
+  display: flex;
+  margin-bottom: 7px;
+  grid-template-rows: repeat(autofit, -webkit-min-content);
+  grid-template-rows: repeat(autofit, min-content);
+  align-items: center;
+  flex-direction: column;
+  }
+  #container2 .com .tweak-menu-container{
+  width: 1200px;
+  display: flex;
+  /* margin-bottom: 23px; */
   grid-template-rows: repeat(autofit, -webkit-min-content);
   grid-template-rows: repeat(autofit, min-content);
   align-items: center;
