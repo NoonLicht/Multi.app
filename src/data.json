@@ -1,0 +1,249 @@
+{
+  "Browsers": [{
+      "name": "Yandex",
+      "link": ""
+    },
+    {
+      "name": "Opera",
+      "link": ""
+    },
+    {
+      "name": "Google",
+      "link": ""
+    }
+  ],
+  "Utilities": [{
+      "name": "SophiApp",
+      "link": ""
+    },
+    {
+      "name": "Driver Booster",
+      "link": ""
+    },
+    {
+      "name": "AIDA64",
+      "link": ""
+    },
+    {
+      "name": "WinDirStat",
+      "link": ""
+    },
+    {
+      "name": "MSI Afterburner",
+      "link": ""
+    },
+    {
+      "name": "AMD Software",
+      "link": ""
+    },
+    {
+      "name": "NVIDIA Experience",
+      "link": ""
+    },
+    {
+      "name": "OpenVpn",
+      "link": ""
+    }
+  ],
+  "Clients": [{
+      "name": "Steam",
+      "link": ""
+    },
+    {
+      "name": "Epic Games",
+      "link": ""
+    },
+    {
+      "name": "Rockstar Launcher",
+      "link": ""
+    },
+    {
+      "name": "GOG Galaxy",
+      "link": ""
+    },
+    {
+      "name": "qBittorrent",
+      "link": ""
+    }
+  ],
+  "Communication": [{
+      "name": "Discord",
+      "link": ""
+    },
+    {
+      "name": "Telegram",
+      "link": ""
+    }
+  ],
+  "Programming": [
+    {
+      "name": "Visual Studio Code",
+      "link": ""
+    },
+    {
+      "name": "Visual Studio 2022",
+      "link": ""
+    },
+    {
+      "name": "Git",
+      "link": ""
+    },
+    {
+      "name": "PyCharm",
+      "link": ""
+    },
+    {
+      "name": "Github Desktop",
+      "link": ""
+    },
+    {
+      "name": "PostgreSQL",
+      "link": ""
+    },
+    {
+      "name": "DBeaver",
+      "link": ""
+    },
+    {
+      "name": "Notion",
+      "link": ""
+    }
+  ],
+  "Dependencies": [{
+      "name": "DirectX",
+      "link": ""
+    },
+    {
+      "name": "Node.js",
+      "link": ""
+    },
+    {
+      "name": "Python 3.12",
+      "link": ""
+    },
+    {
+      "name": "Visual C++ x64",
+      "link": ""
+    },
+    {
+      "name": "Visual C++ x86",
+      "link": ""
+    },
+    {
+      "name": ".NET Runtime 5",
+      "link": ""
+    },
+    {
+      "name": ".NET Runtime 6",
+      "link": ""
+    },
+    {
+      "name": ".NET Runtime 7",
+      "link": ""
+    }
+  ],
+  "Malware": [{
+      "name": "Kaspersky Free",
+      "link": ""
+    },
+    {
+      "name": "Kaspersky Ultimate",
+      "link": ""
+    },
+    {
+      "name": "Dr.Web SS",
+      "link": ""
+    },
+    {
+      "name": "MalwareBytes",
+      "link": ""
+    },
+    {
+      "name": "BitDefender",
+      "link": ""
+    },
+    {
+      "name": "ESET NOD32",
+      "link": ""
+    }
+  ],
+  "Emulators": [{
+      "name": "PCSX2",
+      "link": ""
+    },
+    {
+      "name": "RPCS3",
+      "link": ""
+    },
+    {
+      "name": "Xenia",
+      "link": ""
+    },
+    {
+      "name": "Yuzu",
+      "link": ""
+    },
+    {
+      "name": "Ryujinx",
+      "link": ""
+    },
+    {
+      "name": "PPSSPP",
+      "link": ""
+    },
+    {
+      "name": "CEMU",
+      "link": ""
+    },
+    {
+      "name": "NOX Player",
+      "link": ""
+    }
+  ],
+  "Creativity": [{
+      "name": "Blender",
+      "link": ""
+    },
+    {
+      "name": "Krita",
+      "link": ""
+    },
+    {
+      "name": "Kompas 3D",
+      "link": ""
+    }
+  ],
+  "Other": [{
+      "name": "7-ZIP",
+      "link": ""
+    },
+    {
+      "name": "WinRAR",
+      "link": ""
+    },
+    {
+      "name": "PowerToys",
+      "link": ""
+    },
+    {
+      "name": "FileZilla",
+      "link": ""
+    },
+    {
+      "name": "KMP Player",
+      "link": ""
+    },
+    {
+      "name": "Microsoft Office",
+      "link": ""
+    },
+    {
+      "name": "StartAllBack",
+      "link": ""
+    },
+    {
+      "name": "StartAllBack",
+      "link": ""
+    }
+  ]
+}
