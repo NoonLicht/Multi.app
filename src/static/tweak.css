@@ -22,7 +22,7 @@ transition: background 0.5s ease;
 .submenu {
 overflow-y: auto;
 width: 60%;
-height: 445px;
+height: 75vh;
 box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #fff;
 border-radius: 1rem;
 margin: 1%;

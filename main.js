@@ -32,7 +32,7 @@ function createLoadingWindow() {
 function createMainWindow() {
     mainWindow = new BrowserWindow({
         width: 1200,
-        height: 650,
+        height: 840,
         resizable: false,
         frame: false,
         webPreferences: {

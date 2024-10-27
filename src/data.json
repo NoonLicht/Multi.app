@@ -4,20 +4,36 @@
       "link": ""
     },
     {
-      "name": "Opera",
+      "name": "Opera One",
+      "link": ""
+    },
+    {
+      "name": "Opera GX",
       "link": ""
     },
     {
       "name": "Google",
       "link": ""
+    },
+    {
+      "name": "Edge",
+      "link": ""
+    },
+    {
+      "name": "FireFox",
+      "link": ""
+    },
+    {
+      "name": "Arc",
+      "link": ""
+    },
+    {
+      "name": "Brave",
+      "link": ""
     }
   ],
   "Utilities": [{
       "name": "SophiApp",
-      "link": ""
-    },
-    {
-      "name": "Driver Booster",
       "link": ""
     },
     {
@@ -41,7 +57,27 @@
       "link": ""
     },
     {
-      "name": "OpenVpn",
+      "name": "HWiNFO",
+      "link": ""
+    },
+    {
+      "name": "DevToys",
+      "link": ""
+    },
+    {
+      "name": "Яндекс Диск",
+      "link": ""
+    },
+    {
+      "name": "Nvidia Broadcast",
+      "link": ""
+    },
+    {
+      "name": "Hyper",
+      "link": ""
+    },
+    {
+      "name": "Cheat Engine",
       "link": ""
     }
   ],
@@ -64,6 +100,18 @@
     {
       "name": "qBittorrent",
       "link": ""
+    },
+    {
+      "name": "Heroic Games",
+      "link": ""
+    },
+    {
+      "name": "Ubisoft",
+      "link": ""
+    },
+    {
+      "name": "Origin",
+      "link": ""
     }
   ],
   "Communication": [{
@@ -72,6 +120,22 @@
     },
     {
       "name": "Telegram",
+      "link": ""
+    },
+    {
+      "name": "Ayugram",
+      "link": ""
+    },
+    {
+      "name": "Signal",
+      "link": ""
+    },
+    {
+      "name": "Zoom",
+      "link": ""
+    },
+    {
+      "name": "Skype",
       "link": ""
     }
   ],
@@ -107,6 +171,14 @@
     {
       "name": "Notion",
       "link": ""
+    },
+    {
+      "name": "Miniconda3",
+      "link": ""
+    },
+    {
+      "name": "Docker",
+      "link": ""
     }
   ],
   "Dependencies": [{
@@ -139,6 +211,18 @@
     },
     {
       "name": ".NET Runtime 7",
+      "link": ""
+    },
+    {
+      "name": "Autoruns",
+      "link": ""
+    },
+    {
+      "name": "Cuda Toolkit",
+      "link": ""
+    },
+    {
+      "name": "MemReduct",
       "link": ""
     }
   ],
@@ -198,6 +282,10 @@
     {
       "name": "NOX Player",
       "link": ""
+    },
+    {
+      "name": "Bluestacks",
+      "link": ""
     }
   ],
   "Creativity": [{
@@ -211,14 +299,46 @@
     {
       "name": "Kompas 3D",
       "link": ""
+    },
+    {
+      "name": "AIMP",
+      "link": ""
+    },
+    {
+      "name": "GIMP",
+      "link": ""
+    },
+    {
+      "name": "OBS",
+      "link": ""
+    },
+    {
+      "name": "SMPlayer",
+      "link": ""
+    },
+    {
+      "name": "Spotify",
+      "link": ""
+    },
+    {
+      "name": "MusicX Player",
+      "link": ""
+    },
+    {
+      "name": "Backyard AI",
+      "link": ""
+    },
+    {
+      "name": "AniLibriX",
+      "link": ""
+    },
+    {
+      "name": "Photoshop",
+      "link": ""
     }
   ],
   "Other": [{
       "name": "7-ZIP",
-      "link": ""
-    },
-    {
-      "name": "WinRAR",
       "link": ""
     },
     {
@@ -243,6 +363,26 @@
     },
     {
       "name": "StartAllBack",
+      "link": ""
+    },
+    {
+      "name": "LibreOffice",
+      "link": ""
+    },
+    {
+      "name": "Adobe Reader",
+      "link": ""
+    },
+    {
+      "name": "Notepad++",
+      "link": ""
+    },
+    {
+      "name": "MobaXTerm",
+      "link": ""
+    },
+    {
+      "name": "NekoBox",
       "link": ""
     }
   ]
