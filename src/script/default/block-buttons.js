@@ -310,7 +310,7 @@ function installWSL() {
 }
 
 function gitLink() {
-  const repositoryURL = "https://github.com/NoonLicht/download_setup_programm_electron";
+  const repositoryURL = "https://github.com/NoonLicht/Multi.app";
   shell.openExternal(repositoryURL);
 }
 
