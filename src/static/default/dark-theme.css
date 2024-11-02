@@ -12,7 +12,9 @@ color: #f1f1f1;
 }
 body.dark-theme .menu,
 body.dark-theme .description,
-body.dark-theme .submenu  {
+body.dark-theme .submenu,
+body.dark-theme .menu-converter,
+body.dark-theme .submenu-converter   {
 background: var(--darkLight-1);
 box-shadow: 6px 6px 12px #0000005a, -3px -3px 6px #7c7c7c8a;
 }

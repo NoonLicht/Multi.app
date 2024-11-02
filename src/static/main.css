@@ -88,6 +88,15 @@ align-items: center;
   align-items: center;
   flex-direction: column;
   }
+#container3 .com {
+  width: 1200px;
+  display: flex;
+  margin-bottom: 7px;
+  grid-template-rows: repeat(autofit, -webkit-min-content);
+  grid-template-rows: repeat(autofit, min-content);
+  align-items: center;
+  flex-direction: column;
+  }
   #container2 .com .tweak-menu-container{
 margin-top: 56px;
   width: 1200px;
@@ -98,6 +107,13 @@ margin-top: 56px;
   align-items: center;
   align-items: flex-start;
   }
-.container3 {
-  display:none
-}
+  #container3 .com .menu-page-container{
+margin-top: 56px;
+  width: 1200px;
+  display: flex;
+  /* margin-bottom: 23px; */
+  grid-template-rows: repeat(autofit, -webkit-min-content);
+  grid-template-rows: repeat(autofit, min-content);
+  align-items: center;
+  align-items: flex-start;
+  }
