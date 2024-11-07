@@ -22,7 +22,6 @@
     <script src="script/content.js"></script>
     <script src="script/link.js"></script>
     <script src="script/default/block-buttons.js"></script>
-
     <script>
         function navigateToContainer(containerId) {
             const container = document.getElementById(containerId);
@@ -39,56 +38,18 @@
 <body>
     <div class="titlebar" id="titlebar"></div>
     <div class="main">
-        <div id="container1" class="container1">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container2" class="container2">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container3" class="container3">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container4" class="container4">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container5" class="container5">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container6" class="container6">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container7" class="container7">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container8" class="container8">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container9" class="container9">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
-        <div id="container10" class="container10">
-            <div class="con">
-                <div class="com"></div>
-            </div>
-        </div>
+        <script>
+            for (let i = 1; i <= 10; i++) {
+                document.write(`
+                    <div id="container${i}" class="container${i}">
+                        <div class="con">
+                            <div class="com"></div>
+                        </div>
+                    </div>
+                `);
+            }
+        </script>
     </div>
 </body>
+
 </html>
