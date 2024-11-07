@@ -1,5 +1,5 @@
 // Функция для создания кнопки меню
-function createMenuButton(id, text, description) {
+function createTweakMenuButton(id, text, description) {
     const button = document.createElement('button');
     button.className = 'menu-button';
     button.id = id;
@@ -22,10 +22,10 @@ function createTweakMenu() {
     const menu = document.createElement('div');
     menu.className = 'menu';
 
-    const confidentialityBtn = createMenuButton('confidentiality', 'Конфиденциальность');
-    const personalizationBtn = createMenuButton('personalization', 'Персонализация');
-    const systemBtn = createMenuButton('system', 'Система');
-    const securityBtn = createMenuButton('security', 'Безопасность');
+    const confidentialityBtn = createTweakMenuButton('confidentiality', 'Конфиденциальность');
+    const personalizationBtn = createTweakMenuButton('personalization', 'Персонализация');
+    const systemBtn = createTweakMenuButton('system', 'Система');
+    const securityBtn = createTweakMenuButton('security', 'Безопасность');
 
     menu.appendChild(confidentialityBtn);
     menu.appendChild(personalizationBtn);

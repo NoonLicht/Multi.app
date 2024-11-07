@@ -14,7 +14,9 @@ body.dark-theme .menu,
 body.dark-theme .description,
 body.dark-theme .submenu,
 body.dark-theme .menu-converter,
-body.dark-theme .submenu-converter   {
+body.dark-theme .submenu-converter,
+body.dark-theme .menu-content,
+body.dark-theme .submenu-content   {
 background: var(--darkLight-1);
 box-shadow: 6px 6px 12px #0000005a, -3px -3px 6px #7c7c7c8a;
 }

@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const container1 = document.querySelector('.container1 .com');
   const container2 = document.querySelector('.container2 .com');
   const container3 = document.querySelector('.container3 .com');
+  const container4 = document.querySelector('.container4 .com');
 
   // Создаем кнопки для блоков с приложениями
   const buttonsContainer1 = document.createElement("div");
@@ -41,6 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
   buttonsContainer3.appendChild(toggleThemeBtnThree);
 
   container3.appendChild(buttonsContainer3);
+
+  const buttonsContainer4 = document.createElement("div");
+  buttonsContainer4.className = "buttons-container";
+
+  buttonsContainer4.appendChild(GithubLinkFour);
+  buttonsContainer4.appendChild(toggleThemeBtnFour);
+
+  container4.appendChild(buttonsContainer4);
 });
 
 // Остальной код кнопок и их обработчиков
@@ -143,6 +152,13 @@ const GithubLinkThree = createIconButton(
   "Репозиторий"
 );
 
+const GithubLinkFour = createIconButton(
+  "button normal-button",
+  gitLink,
+  "M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21h6Z M9 19c-4.3 1.4-4.3-2.5-6-3",
+  "Репозиторий"
+);
+
 const EnableCheck = createIconButton(
   "button normal-button",
   enableCheck,
@@ -171,6 +187,12 @@ const toggleThemeBtnThree = createIconButton(
   "Сменить тему"
 );
 
+const toggleThemeBtnFour = createIconButton(
+  "button normal-button",
+  toggleTheme,
+  "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728 0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z",
+  "Сменить тему"
+);
 //----------------------------------------Обработка кнопок----------------------------------------//
 
 function deleteApps() {
@@ -321,6 +343,7 @@ function toggleTheme() {
   const pathElementsBtn1 = toggleThemeBtnOne.querySelectorAll("path");
   const pathElementsBtn2 = toggleThemeBtnTwo.querySelectorAll("path");
   const pathElementsBtn3 = toggleThemeBtnThree.querySelectorAll("path");
+  const pathElementsBtn4 = toggleThemeBtnFour.querySelectorAll("path");
 
   const newPath = isDarkTheme
     ? "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"
@@ -335,6 +358,10 @@ function toggleTheme() {
   });
 
   pathElementsBtn3.forEach((path) => {
+    path.setAttribute("d", newPath);
+  });
+
+  pathElementsBtn4.forEach((path) => {
     path.setAttribute("d", newPath);
   });
 }

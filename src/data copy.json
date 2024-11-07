@@ -1,11 +1,11 @@
 {
   "Browsers": [{
       "name": "Yandex",
-      "link": "https://download.yandex.ru/downloadable_soft/browser/15740/Yandex.exe?erid=Kra23kqVE"
+      "link": ""
     },
     {
       "name": "Opera One",
-      "link": "https://get.geo.opera.com/ftp/pub/opera/desktop/114.0.5282.144/win/Opera_114.0.5282.144_Setup_x64.exe"
+      "link": ""
     },
     {
       "name": "Opera GX",

@@ -1,5 +1,5 @@
 // Функция для создания кнопки меню
-function createMenuButton(id, text) {
+function createConvertMenuButton(id, text) {
     const button = document.createElement('button');
     button.className = 'menu-button';
     button.id = id;
@@ -19,8 +19,6 @@ function createMenuPage() {
         return;
     }
 
-    console.log("Создание страницы меню");
-
     const mainContainer = document.createElement('div');
     mainContainer.className = 'menu-page-container';
 
@@ -28,8 +26,8 @@ function createMenuPage() {
     menu.className = 'menu-converter';
 
     // Создаем кнопки меню
-    const convertingfileBtn = createMenuButton('convertingfile', 'Конветирование файлов');
-    const curlconvertBtn = createMenuButton('curlconvert', 'Конветирование curl');
+    const convertingfileBtn = createConvertMenuButton('convertingfile', 'Конветирование файлов');
+    const curlconvertBtn = createConvertMenuButton('curlconvert', 'Конветирование curl');
 
     // Добавляем кнопки в меню
     menu.appendChild(convertingfileBtn);
@@ -43,7 +41,6 @@ function createMenuPage() {
     mainContainer.appendChild(submenu);
     container.appendChild(mainContainer);
 
-    console.log("Элементы добавлены в контейнер");
 }
 
 
