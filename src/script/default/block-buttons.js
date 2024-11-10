@@ -340,6 +340,7 @@ function toggleTheme() {
   const isDarkTheme = document.body.classList.toggle('dark-theme');
   console.log("Theme toggled:", isDarkTheme);
 
+  // Переключаем иконки в кнопках
   const pathElementsBtn1 = toggleThemeBtnOne.querySelectorAll("path");
   const pathElementsBtn2 = toggleThemeBtnTwo.querySelectorAll("path");
   const pathElementsBtn3 = toggleThemeBtnThree.querySelectorAll("path");
@@ -364,4 +365,33 @@ function toggleTheme() {
   pathElementsBtn4.forEach((path) => {
     path.setAttribute("d", newPath);
   });
+
+  // Обновляем изображения на странице после переключения темы
+  updateImages();
+}
+
+// Функция для обновления изображений после переключения темы
+function updateImages() {
+  const images = document.querySelectorAll('.grid-box-left img');
+  images.forEach(img => {
+    const currentSrc = img.src;
+    const imageName = currentSrc.split('/').pop(); // Получаем имя файла изображения
+
+    // Если приставка -white есть, убираем ее
+    const baseName = imageName.includes('-white.png')
+      ? imageName.replace('-white.png', '.png')
+      : imageName;
+
+    const newSrc = getImagePath("logo/" + baseName); // Обновляем путь к изображению в зависимости от темы
+    img.src = newSrc; // Обновляем источник изображения
+  });
+}
+
+// Функция для получения актуального пути изображения с учетом темы
+function getImagePath(imageName) {
+  const isDarkTheme = document.body.classList.contains('dark-theme');
+  if (isDarkTheme) {
+    return imageName.replace(".png", "-white.png"); // Для темной темы добавляем -white
+  }
+  return imageName; // Возвращаем обычный путь для светлой темы
 }

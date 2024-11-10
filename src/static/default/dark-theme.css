@@ -54,6 +54,11 @@ body.dark-theme .titlebar {
 box-shadow: 6px 6px 12px #0000005a, -3px -3px 6px #7c7c7c8a;
 background: var(--darkLight-1);
 }
+body.dark-theme .navbutton.active {
+box-shadow: inset 3px 3px 7px #1d2023, inset -3px -3px 7px #ffffff1a;
+transition: 0.5s;
+color: var(--primary-dark);
+}
 body.dark-theme .tweak-check label:focus,
 body.dark-theme .tweak-check label:hover {
 color: #cdcccc;
@@ -80,4 +85,9 @@ color: #cdcccc;
 }
 body.dark-theme .main {
 background: var(--darkLight-1);
+}
+
+body.dark-theme .grid-box {
+box-shadow: 6px 6px 12px #0000005a, -3px -3px 6px #7c7c7c8a;
+
 }

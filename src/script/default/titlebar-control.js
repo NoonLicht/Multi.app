@@ -1,12 +1,31 @@
 const { ipcRenderer } = require('electron');
 
+let activeButton = null; // Переменная для хранения текущей активной кнопки
+
+function setActiveButton(button) {
+    // Если уже есть активная кнопка, убираем у нее класс 'active'
+    if (activeButton) {
+        activeButton.classList.remove('active');
+    }
+    // Устанавливаем текущую кнопку как активную и добавляем ей класс 'active'
+    activeButton = button;
+    activeButton.classList.add('active');
+}
+
 function createButton(className, id, svgPath, clickHandler) {
     const button = document.createElement('button');
     button.className = className;
     button.id = id;
     button.style.display = 'flex';
     button.style.justifyContent = 'center';
-    button.onclick = clickHandler;
+
+    button.onclick = () => {
+        // Если кнопка не является minimizeBtn или closeBtn, делаем ее активной
+        if (id !== 'minimizeBtn' && id !== 'closeBtn') {
+            setActiveButton(button);
+        }
+        if (clickHandler) clickHandler();
+    };
 
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     svg.setAttribute('width', '100%');
@@ -56,6 +75,5 @@ function createTitleBar() {
     titlebar.appendChild(noteBtn);
     titlebar.appendChild(chubBtn);
 }
-
 
 document.addEventListener('DOMContentLoaded', createTitleBar);

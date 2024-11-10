@@ -24,8 +24,8 @@ function createTweakMenu() {
 
     const confidentialityBtn = createTweakMenuButton('confidentiality', 'Конфиденциальность');
     const personalizationBtn = createTweakMenuButton('personalization', 'Персонализация');
-    const systemBtn = createTweakMenuButton('system', 'Система');
     const securityBtn = createTweakMenuButton('security', 'Безопасность');
+    const systemBtn = createTweakMenuButton('system', 'Система');
 
     menu.appendChild(confidentialityBtn);
     menu.appendChild(personalizationBtn);

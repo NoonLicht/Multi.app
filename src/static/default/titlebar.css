@@ -29,7 +29,7 @@ z-index: 1000;
 float: right;
 width: 2.5rem;
 height: 20px;
-border-radius: 0.7rem;
+border-radius: 0.5rem;
 box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #fff;
 border: none;
 margin-top: 7.5px;
@@ -53,11 +53,18 @@ inset -3px -3px 7px var(--white);
 transition: 0.5s;
 color: var(--primary-dark);
 }
+.navbutton.active {
+box-shadow: inset 3px 3px 7px var(--greyLight-2),
+inset -3px -3px 7px var(--white);
+transition: 0.5s;
+color: var(--primary-dark);
+}
+
 .navbutton {
 float: left;
 width: 2.5rem;
 height: 20px;
-border-radius: 0.7rem;
+border-radius: 0.5rem;
 box-shadow: 6px 6px 12px #c9c9c9, -6px -6px 12px #fff;
 border: none;
 margin-top: 7.5px;
